@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #0e0e0e; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.blue{
+    background-color: #3D71E7;
+    height:60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+.navbar>svg{
+    margin-top: 6px;
+    margin-left: 4px;
+    height: 1.3rem;
+    fill: rgb(255, 255, 255);
+}
+.explore{
+    display: flex;
+}
+.explore>p{
+    color: white;
+    font-size: 12px;
+    margin-left:62px;
+    margin-right: 5px;
+}
+.yellow{
+    color:yellow;
+}
+.search{
+    display: flex;
+}
+.search>input{
+    margin-left: 6px;
+    width:480px;
+    height:36px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: rgba(0, 0 ,0 ,0.6);
+    padding: 4%;
+}
+.search>svg{
+    margin-left: -39px; 
+    margin-top:6px;
+}
+.login>button{
+    margin-left:30px;
+    height: 32px;
+    width: 120px;
+    background-color: white;
+    color: #3d71e7;
+    border:none;
+    font-size: 16px;
+    font-family:  sans-serif;
+    border-radius: 2px;
+}
+.become{
+    color: white;
+    margin-left: 32px;
+    font-size: 16px;
+}
+.more,.cart{
+    margin-left:32px;
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.more>svg{
+    margin-left:5px;
+    margin-top: 5px;
+}
+.cart>p{
+    font-size: 16px;
+}
+.sub-header{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 5%;
+    font-size: 14px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.down-desc{
+    display: flex;
+    justify-content: center;
+}
+.down-desc>svg{
+    margin-top:5px;
+    margin-left: 4px;
+}
